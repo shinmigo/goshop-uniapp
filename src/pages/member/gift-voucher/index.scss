@@ -1,0 +1,247 @@
+page,
+.content {
+  height: 100%;
+}
+
+.navbar {
+
+  height: 80rpx;
+  background: #fff;
+  position: fixed;
+  z-index: 7;
+  width: 100%;
+  box-shadow: 0 0 10rpx 0 rgba(153,153,153,0.1);
+  .nav-item {
+    display: inline-block;
+    font-size: 28rpx;
+    padding-left: 40rpx;
+		padding-right: 40rpx;
+    line-height: 80rpx;
+		width: calc((100% - 160rpx)/3);
+    color: $text-color-grey;
+    position: relative;
+    &.current {
+      color: $text-color-title;
+      &:after {
+        content: '';
+        position: absolute;
+        left: 40rpx;
+        bottom: 12rpx;
+        width: calc(100% - 100rpx);
+        height: 4rpx;
+        background: #1e384b;
+        border-radius: 2rpx;
+      }
+    }
+  }
+}
+.list-scroll-content{
+	height: 100%;
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	
+}
+.bottom-emptyView{
+		display: flex;
+		position: relative;
+		left: 0;
+		bottom: 0;
+		width:  100%;
+		height: 264rpx;
+	}
+.swiper-box {
+  margin-top: 80rpx;
+	display: flex;
+	position: relative;
+}
+.tab-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	.bottom-backView{
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		z-index: 1;
+		background-color: #FFFFFF;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 264rpx;
+		.des-text{
+			align-items: center;
+			justify-content: center;
+			padding-top: 32rpx;
+			font-size: 24rpx;
+			color: #999999;
+			width: 100%;
+		}
+		.add-btn{
+			align-items: center;
+			justify-content: center;
+			top: 24rpx;
+			margin-left: 60rpx;
+			margin-right: 60rpx;
+			height: 90rpx;
+			line-height: 90rpx;
+			font-size: 32rpx;
+			color: #ffffff;
+			border-radius: 45rpx;
+		}
+	}
+}
+
+.list-box{
+	display:flex;
+	position: relative;
+	background: #FFFFFF;
+	border-radius: 8rpx;
+	margin-top: 20rpx;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	.btn-use{
+		z-index: 1;
+		align-items: center;
+		font-size: 24rpx;
+		padding: 0;
+		border-radius: 24rpx;
+		color: #ffffff;
+		top: 98rpx;
+		right: 28rpx;
+		width: 112rpx;
+		height: 48rpx;
+		line-height: 48rpx;
+	}
+	.icon-invaild{
+		width: 112rpx;
+		height: 112rpx;
+		margin-top: 20rpx;
+		margin-right: 28rpx;
+	}
+	
+}
+.main-area{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+}
+.main-left-area {
+	display: flex;
+	justify-content: start;
+	flex-direction: column;
+	align-items: center;
+	width: 200rpx;
+	.amount {
+		font-size: 60rpx;
+		color: #f75e5e;
+	}
+	.amount-desc {
+		margin-top: 6rpx;
+		font-size: 24rpx;
+		color: #999999;
+	}
+}
+
+.main-middle-area {
+	display: flex;
+	flex-direction: column;
+	.item-name{
+		font-size: 30rpx;
+		color: #333333;
+		flex-wrap: wrap;
+	}
+	.item-id{
+		padding-top: 20rpx;
+		font-size: 24rpx;
+		color: #999999;
+	}
+	.item-time{
+		padding-top: 20rpx;
+		font-size: 24rpx;
+		color: #999999;
+	}
+}
+
+.circle-icon {
+	position: absolute;
+	background-color: #f7f7f7;
+	width: 32rpx;
+	height: 32rpx;
+	bottom: 34rpx;
+}
+.left-circle {
+	left: -12rpx;
+}
+
+.right-circle {
+	right: -12rpx;
+}
+
+
+.popupWindow {
+	display: flex;
+	flex-direction: column;
+  width: 622rpx;
+  height: 540rpx;
+  border-radius: 12rpx;
+  background-color: #ffffff;
+	// align-items: center;
+	.popupWindow-title{
+	  font-family: PingFangSC;
+	  font-size: 36rpx;
+	  font-weight: bold;
+	  font-stretch: normal;
+	  font-style: normal;
+	  line-height: 1;
+	  letter-spacing: normal;
+	  text-align: center;
+	  color: $uni-text-color;
+		margin-top: 48rpx;
+	}
+	.code-inputBack{
+		margin-top:48rpx;
+		margin-left: 40rpx;
+		margin-right: 40rpx;
+		border-radius:8rpx;
+		background-color: #f7f7f7;
+		height: 88rpx;
+		.code-input{
+			margin-left: 32rpx;
+			font-size: 28rpx;
+			color:$uni-text-color;
+			height: 88rpx;
+		}
+	}
+	.password-inputBack{
+		margin-top:40rpx;
+		margin-left: 40rpx;
+		margin-right: 40rpx;
+		border-radius:8rpx;
+		background-color: #f7f7f7;
+		height: 88rpx;
+		.password-input{
+			margin-left: 32rpx;
+			font-size: 28rpx;
+			color:$uni-text-color;
+			height: 88rpx;
+		}
+	}
+	.certain {
+	  width: 542rpx;
+	  height: 90rpx;
+		line-height: 90rpx;
+	  border-radius: 45rpx;
+	  background-color: #cccccc;
+		margin-top:60rpx;
+		color: #FFFFFF;
+		font-size: 32rpx;
+		&.active{
+			background-image: linear-gradient(96deg, #7ce500 -8%, #59c407 47%, #46b20b 159%);
+		}
+	}
+	
+}

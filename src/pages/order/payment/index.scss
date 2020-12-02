@@ -1,0 +1,85 @@
+.paymentBox {
+  .payment {
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    bottom: 0rpx;
+    width: 100%;
+    background: #ffffff;
+    border-top-left-radius: 16rpx;
+    border-top-right-radius: 16rpx;
+    transition: bottom 0.5s ease-in-out;
+    .header {
+      width: 100%;
+      height: 126rpx;
+      line-height: 126rpx;
+      .close {
+        position: absolute;
+        right: 0rpx;
+        top: 0rpx;
+        padding: 20rpx;
+      }
+    }
+    .content {
+      width: 690rpx;
+      padding: 0 20rpx 0 40rpx;
+      .item {
+        width: 100%;
+        padding: 28rpx 0;
+        view {
+          .money {
+            height: 36rpx;
+            line-height: 36rpx;
+          }
+          .tips {
+            height: 32rpx;
+            line-height: 32rpx;
+          }
+        }
+      }
+      .line {
+        border-top: 2rpx solid rgb(244, 244, 244);
+      }
+    }
+    .btn {
+      width: 710rpx;
+      height: 90rpx;
+      line-height: 90rpx;
+      border-radius: 45rpx;
+      margin: 16rpx 20rpx 74rpx;
+    }
+  }
+  .bg {
+    position: fixed;
+    z-index: 8;
+    left: 0;
+    bottom: 0rpx;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.5);
+  }
+}
+.switch_bar {
+  position: relative;
+  width: 90rpx;
+  height: 52rpx;
+  border-radius: 82rpx;
+  background-color: #e9e9eb;
+  .switch {
+    position: absolute;
+    top: 2rpx;
+    left: 2rpx;
+    width: 48rpx;
+    height: 48rpx;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    transition: all 0.5s;
+    border-radius: 50%;
+  }
+}
+.switch_bar_on {
+  background-color: #51bd09;
+  .switch {
+    left: 40rpx;
+  }
+}

@@ -1,0 +1,122 @@
+page {
+	background-color: #f7f7f7;
+}
+
+.content {
+	flex: 1;
+	height: 100%;
+}
+
+.cell {
+	display: flex;
+	background-color: #ffffff;
+	flex-direction: column;
+	
+	.row {
+		display: flex;
+		align-items: center;
+		height: 110rpx;
+		margin: 0rpx;
+		padding: 0 24rpx;
+		align-items: center;
+		flex-direction: row;
+	}
+}
+
+
+.mTop10 {
+	margin-top: 20rpx;
+}
+.rowFlex {
+	display: flex;
+	align-items: center;
+	margin: 0rpx;
+	padding: 0 24rpx;
+	background-color: #ffffff;
+
+	// border-bottom: thin solid #e3e5e8;
+}
+
+.line {
+	display: block;
+	width: calc(100% - 48rpx);
+	height: 3rpx;
+	background-color: #e3e5e8;
+	margin: 0 24 0 24rpx;
+	margin-left: 24rpx;
+	align-items: baseline;
+}
+
+.input {
+	flex: 1;
+	padding-left: 40rpx;
+	font-size: 28rpx;
+	color: #333333;
+	flex-wrap: wrap;
+}
+
+textarea {
+	margin-top: 36rpx;
+	margin-bottom: 36rpx;
+}
+
+.button {
+	width: calc(100% - 120rpx);
+	height: 90rpx;
+	border-radius: 45rpx;
+	flex: 1;
+	text-align: center;
+	color: #ffffff;
+	font-size: 32rpx;
+	line-height: 90rpx;
+	&::after{
+		border: none;
+	}
+}
+
+.button-dis {
+	background-color: #cccccc;
+}
+
+.button-del {
+	width: calc(100% - 120rpx);
+	height: 90rpx;
+	flex: 1;
+	text-align: center;
+	font-size: 32rpx;
+	line-height: 90rpx;
+	color: #333333;
+	border: 1rpx solid #666666;
+	border-radius: 45rpx;
+	margin-top: 48rpx;
+	overflow: auto;
+	
+}
+
+switch {
+	position: fixed;
+	right: 0rpx;
+	transform: scale(0.7);
+}
+
+.text {
+	width: 120rpx;
+	text-align: left;
+	font-size: 30rpx;
+	color: #333333;
+	/* color: $text-color-title; */
+}
+
+.pl-text {
+	font-size: 28rpx;
+	color: #999999;
+	text-align: left;
+	justify-content: left;
+	/* color: $text-color-placeholder; */
+}
+.arrow {
+	position: fixed;
+	width: 30rpx;
+	height: 30rpx;
+	right: 24rpx;
+}

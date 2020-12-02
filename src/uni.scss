@@ -14,6 +14,43 @@
 
 /* 颜色变量 */
 
+/* 本商城项目开始 */
+// 价格颜色
+$price-color: #fb4e4e; //价格颜色
+$price-color-del: #999999;//划线价格颜色
+// 文案颜色
+$text-color-title: #333333;//深色 -- 用于title等
+$text-color: #666666;//基本色
+$text-color-inverse: #ffffff;//反色
+$text-color-grey: #999999;//灰色
+$text-color-placeholder: #999999;//辅助灰色用于input标签
+$text-color-red: #fb4e4e;//全局彩色
+$text-color-green: #53be09;//全局彩色
+$text-color-brown: #644e1e;//全局彩色
+// 背景色
+$bg-color-red: #ea1d1d;//彩色按钮
+$bg-color-red-disable: #f6a3a3;//彩色按钮灰色状态
+$bg-color-dark: #3c3c3c;//深色按钮
+$bg-color-dark-disable: #cccccc;//深色按钮灰色状态
+
+// 渐变背景
+.bg-image {//彩色按钮
+  background-image: linear-gradient(95deg, #7ce500 -8%, #59c407 47%, #46b20b 159%);
+}
+.bg-image-disable {//彩色按钮灰置状态
+  background-image: linear-gradient(95deg, #7ce500 -8%, #59c407 47%, #46b20b 159%);
+  opacity: 0.37;
+}
+.bg--image-grey {//黄灰色按钮
+  background-image: linear-gradient(98deg, #fcd881 -3%, #ffbd2a 143%);
+}
+.bg--image-grey-disable {//黄灰色按钮灰置状态
+  background-image: linear-gradient(98deg, #fcd881 -3%, #ffbd2a 143%);
+  opacity: 0.37;
+}
+/* 本商城项目结束 */
+
+/*框架颜色*/
 /* 行为相关颜色 */
 $uni-color-primary: #007aff;
 $uni-color-success: #4cd964;
@@ -21,10 +58,10 @@ $uni-color-warning: #f0ad4e;
 $uni-color-error: #dd524d;
 
 /* 文字基本颜色 */
-$uni-text-color:#333;//基本色
-$uni-text-color-inverse:#fff;//反色
-$uni-text-color-grey:#999;//辅助灰色，如加载更多的提示信息
-$uni-text-color-placeholder: #808080;
+$uni-text-color:#333333;//基本色
+$uni-text-color-inverse:#ffffff;//反色
+$uni-text-color-grey:#999999;//辅助灰色，如加载更多的提示信息
+$uni-text-color-placeholder: #999999;
 $uni-text-color-disable:#c0c0c0;
 
 /* 背景颜色 */
@@ -32,6 +69,7 @@ $uni-bg-color:#ffffff;
 $uni-bg-color-grey:#f8f8f8;
 $uni-bg-color-hover:#f1f1f1;//点击状态颜色
 $uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
+
 
 /* 边框颜色 */
 $uni-border-color:#c8c7cc;
@@ -74,3 +112,4 @@ $uni-color-subtitle: #555555; // 二级标题颜色
 $uni-font-size-subtitle:36rpx;
 $uni-color-paragraph: #3F536E; // 文章段落颜色
 $uni-font-size-paragraph:30rpx;
+

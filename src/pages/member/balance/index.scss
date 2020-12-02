@@ -1,0 +1,309 @@
+// page,
+.page-balance-content{
+	display: flex;
+	flex-direction: column;
+	background-color: #f7f7f7;
+	padding: 20rpx;
+}
+
+.balance {
+	width: 710rpx;
+	display: flex;
+	flex-direction: column;
+  border-radius: 8rpx;
+	padding-top: 36rpx;
+	padding-bottom: 40rpx;
+  background-color: $uni-bg-color;
+	align-items: center;
+}
+
+.current-balance-title {
+	width: 100%;
+  font-family: PingFangSC;
+  font-size: 26rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666;
+	margin: 0 auto;
+}
+
+.amount-unit{
+  font-family: PingFangSC;
+  font-size: 36rpx;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: $uni-text-color;
+}
+
+.amount-txt {
+  font-family: HelveticaNeue;
+  font-size: 64rpx;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color:$uni-text-color;
+}
+
+.button-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 50rpx;
+}
+
+.balance-detail{
+	width: 210rpx;
+	height: 68rpx;
+	border-radius: 40rpx;
+	border: solid 2rpx #46c600;
+  font-family: PingFangSC;
+  font-size: 28rpx;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #46c600;
+	margin-right: 24rpx;
+}
+
+ .redemption-code-recharge{
+	width: 210rpx;
+	height: 68rpx;
+	// background-color: #46c600;
+	border-radius: 40rpx;
+	background-image: linear-gradient(101deg, #7ce500 -7%, #59c407 47%, #46b20b 157%);
+  font-family: PingFangSC;
+  font-size: 28rpx;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #FFFFFF;
+	margin-left: 24rpx;
+}
+
+.saleablecardlist-content {
+  width: 710rpx;
+	display: flex;
+	flex-direction: column;
+  border-radius: 8rpx;
+  box-shadow: 0 0 8px 0 rgba(199, 211, 219, 0.25);
+  background-color: #ffffff;
+	margin-top: 20rpx;
+}
+
+ .buy-saleableCard{
+  font-family: PingFangSC;
+  font-size: 30rpx;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color:$uni-text-color;
+}
+
+.saleableCard-tip{
+  font-family: PingFangSC;
+  font-size: 26rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color:$price-color-del;
+	margin-left: 16rpx;
+}
+.saleablecardlist{
+	width: 630rpx;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.saleablecard{
+  width: 304rpx;
+  height: 172rpx;
+	justify-content: center;
+	display: flex;
+  border-radius: 8rpx;
+  background-color: #f7f7f7;
+	color:$uni-text-color;
+	align-items: center;
+	text-align: center;
+	margin-top: 20rpx;
+	&.active{
+		color: #46c600;
+		background-color: rgba(70, 198, 0, 0.1);
+	}
+}
+
+.saleablecard-use-info-content{
+	width: 710rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 82rpx;
+	justify-content: center;
+}
+
+.saleablecard-use-info{
+  font-family: PingFangSC;
+  font-size: 26rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666;
+}
+
+.arrow-icon {
+	width: 26rpx;
+	height: 26rpx;
+	margin-left: 6rpx;
+}
+
+.to-buy {
+  width: 630rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background-image: linear-gradient(95deg, #7ce500 -8%, #59c407 47%, #46b20b 159%);
+	font-size: 32rpx;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 32rpx;
+	margin-bottom: 32rpx;
+}
+
+.popupWindow {
+	display: flex;
+	flex-direction: column;
+  width: 622rpx;
+  height: 602rpx;
+  border-radius: 12rpx;
+  background-color: #ffffff;
+	align-items: center;
+}
+
+.popupWindow-title{
+  font-family: PingFangSC;
+  font-size: 36rpx;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: $uni-text-color;
+	margin-top: 48rpx;
+	
+}
+
+.popupWindow-account-verfity-content{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 48rpx;
+}
+
+.popupWindow-account-verfity {
+  font-family: PingFangSC;
+	font-size: 28rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: center;
+  color: #1e384b;
+}
+
+.popupWindow-phone-number{
+  font-family: HelveticaNeue;
+  font-size: 28rpx;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #46c600;
+}
+
+.input-verfity-code-content{
+	width: 542rpx;
+	height: 82rpx;
+	display: flex;
+	flex-direction: row;
+	border-radius: 8rpx 0rpx 0rpx 8rpx;
+	background-color: #f7f7f7;
+	margin-top:48rpx;
+	// align-items: center;
+}
+
+.input-verfity-code  {
+	width: 342rpx;
+	height: 82rpx;
+	margin-left: 32rpx;
+	font-size: 28rpx;
+	color:$uni-text-color;
+	align-items:center;
+}
+
+.btn-verfity-code  {
+	width: 200rpx;
+  height: 82rpx;
+	padding-top: 8rpx;
+	border-radius: 0rpx 8rpx 8rpx 0rpx;
+  background-image: linear-gradient(107deg, #7ce500 -6%, #59c407 46%, #46b20b 154%);
+	font-size: 24rpx;
+	text-align: center;
+	letter-spacing: normal;
+	color: #ffffff;
+}
+
+.input-redemption-code-recharge-content {
+  margin-top:40rpx;
+  width: 542rpx;
+  height: 82rpx;
+  border-radius: 8rpx;
+  background-color: #f7f7f7;
+	align-items: center;
+}
+
+.input-redemption-code-recharge {
+  width: 542rpx;
+  height: 82rpx;
+	margin-left: 32rpx;
+	font-size: 28rpx;
+	color:$uni-text-color;
+	align-items:center;
+}
+
+.certain {
+  width: 542rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  background-color: #cccccc;
+	margin-top:60rpx;
+	color: #FFFFFF;
+	font-size: 32rpx;
+	&.active{
+		background-image: linear-gradient(96deg, #7ce500 -8%, #59c407 47%, #46b20b 159%);
+	}
+}

@@ -1,0 +1,19 @@
+/*下面为 默认图片的placeHolder分类 */
+/*全局图片*/
+.skuBox1 {
+	display: block;
+	background: #f4f4f4;
+	background-image: url(../../../static/common-icon/default.png);
+  /* url(https://img01.yimishiji.com/v1/img/f9e7d60b93b25da6e5f4b717b40fe677.png); */
+	background-size: 56%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+/*全局圆形用户头像*/
+.skuBox2 {
+	display: block;
+	background-image: url(../../../static/myinfo/missing-face.png);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}

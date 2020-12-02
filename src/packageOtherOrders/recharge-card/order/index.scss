@@ -1,0 +1,136 @@
+page{
+	background-color: $uni-bg-color;
+	background-color: #f7f7f7;
+}
+.page-recharge-content{
+	display: flex;
+	flex-direction: column;
+	padding-top: 20rpx;
+	padding-bottom: 164rpx;
+}
+
+.recharge-card-item{
+	display: flex;
+	flex-direction: column;
+	border-radius: 8rpx;
+	box-shadow: 0 0 12rpx 0 rgba(153, 153, 153, 0.06);
+	background-color: #ffffff;
+	padding-left: 24rpx;
+	padding-right: 24rpx;
+	padding-top: 32rpx;
+	padding-bottom: 32rpx;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-bottom: 20rpx;
+}
+
+
+.sku-discountprice {
+	color: $price-color;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+
+.line-horizontal {
+	width: 100%;
+	height: 2rpx;
+	background-color: #eeeeee;
+	margin-top: 36rpx;
+}
+
+.amount-unit{
+  font-family: HelveticaNeue;
+  font-size: 24rpx;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: $price-color;
+	font-weight: bold;
+}
+
+.buy-sku-quantity{
+	display: flex;
+	flex-direction: row;
+	margin-top: 42rpx;
+}
+
+.buy-sku-quantity-txt{
+  font-family: PingFangSC;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #666666;
+	margin-top: 6rpx;
+
+}
+
+.order-actual-amount{
+	display: flex;
+	flex-direction: row-reverse;
+	margin-top: 20rpx;
+	float: right;
+	align-self: flex-end;
+}
+
+.actual-amount-txt{
+  font-family: PingFangSC;
+  font-size: 28rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #666666;
+}
+
+.actual-amount{
+  font-family: HelveticaNeue;
+  font-size: 32rpx;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: right;
+  color: $price-color;
+	font-weight: bold;
+}
+
+.sumbit-order-bottom{
+	width: 100%;
+	height: 164rpx;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	justify-content: space-between;
+	left:0;
+	bottom:0;
+	align-items: center;
+	background-color: #FFFFFF;
+	z-index: 9;
+
+}
+
+.sumbit-order {
+  width: 210rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+	line-height: 80rpx;
+  background-image: linear-gradient(103deg, #7ce500 -6%, #59c407 46%, #46b20b 156%);
+	font-family: PingFangSC;
+	font-size: 28rpx;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 32rpx;
+
+}
+
+ 

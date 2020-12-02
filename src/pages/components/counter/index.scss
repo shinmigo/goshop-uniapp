@@ -1,0 +1,32 @@
+.count-box {
+	width: 180rpx;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 4rpx;
+	border-color: #CCCCCC;
+	border-width: 2rpx;
+	border-style: solid;
+}
+
+.count-action-minus {
+	border-right: 2rpx solid #CCCCCC;
+	padding: 4rpx;
+	display: flex;
+	align-items: center;
+}
+
+.count-action-plus {
+	border-left: 2rpx solid #CCCCCC;
+	padding: 4rpx;
+	display: flex;
+	align-items: center;
+}
+
+.count-number {
+	font-size: 28rpx;
+	color: $uni-text-color;
+	flex-grow: 1;
+	text-align: center;
+}

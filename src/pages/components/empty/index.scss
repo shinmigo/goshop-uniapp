@@ -1,0 +1,28 @@
+.empty-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: $uni-bg-color-grey;
+	&-image {
+		width: 272rpx;;
+		height: 272rpx;;
+	}
+}
+	
+.defaultTitleColor {
+	margin-top: 32rpx;
+	font-size: 28rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: center;
+	color: #999999;
+}

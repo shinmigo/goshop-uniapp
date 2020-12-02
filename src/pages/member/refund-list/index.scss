@@ -1,0 +1,159 @@
+page, .content {
+	height: 100%;
+}
+.list-scroll-content {
+	margin-top: 0;
+	height: 100%;
+}
+
+.cover-container{
+  border-radius: 4px;
+  box-shadow: 0 0 8px 0 rgba(153, 153, 153, 0.1), 0 0 8px 0 rgba(199, 211, 219, 0.25);
+  background-color: #ffffff;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.header {
+  margin-bottom: 0rpx;
+  width: 100%;
+  height: 80rpx;
+}
+.order-section {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20rpx;
+  .order-section-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 28rpx;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #333333;
+    margin-left: 24rpx;
+    height: 100%;
+  }
+  .order-section-status {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 24rpx;
+    height: 100%;
+		color: #51bd09;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		text-align: center;
+		font-size: 28rpx;
+		color: #51bd09;
+  }
+  .order-section-goodlist {
+    height: 160rpx;
+    padding: 24rpx 24rpx;
+    // white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+    align-content: center;
+  }
+}
+
+.order-section-des {
+		margin-top: 24rpx;
+		margin-bottom: 28rpx;
+		font-size: 28rpx;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #666666;
+		text-align: right;
+		justify-content: space-between;
+		align-self: auto;
+		margin-right: 8rpx;
+	}
+	.order-prefix-money {
+		font-size: 24rpx;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #fb4e4e;
+	}
+	.order-section-money {
+		font-size: 36rpx;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #fb4e4e;
+}
+
+/* 多条商品 */
+.goods-box {
+	height: 100%;
+	white-space: nowrap;
+	.goods-item {
+		width: 120rpx;
+		height: 120rpx;
+		display: inline-block;
+	}
+	.goods-img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.goods-more {
+		display: block;
+		font-size: 24rpx;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #999999;
+	}
+	.goods-more-arrow {
+		display: block;
+		width: 24rpx;
+		height: 24rpx;
+	}
+	.goods-more-size {
+		height: 120rpx;
+	}
+}
+
+.goods-box-width {
+	width: 100%;
+	height: 140rpx;
+}
+
+.order-seperate-line {
+	margin-top: 0;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-bottom: 0;
+	height: 2rpx;
+	box-shadow: inset 0 -0.5px 0 0 $uni-bg-color;
+	background-color: rgb(238, 239, 241);
+}
+
+.tab-content {
+	
+}

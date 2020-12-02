@@ -1,0 +1,33 @@
+.navBarBox{
+  width: 100%;
+  .navBar{
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    view{
+      height: 100%;
+      .left{
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100rpx;
+        .backIcon{
+          width: 40rpx;
+          height: 40rpx;
+          padding: 0 32rpx;
+        }
+      }
+    }
+  }
+  .bg{
+    position: fixed;
+    z-index: 8;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

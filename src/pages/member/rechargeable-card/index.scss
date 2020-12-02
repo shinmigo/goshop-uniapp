@@ -1,0 +1,122 @@
+page,
+.content {
+  height: 100%;
+}
+.list-scroll-content {
+	height: 100%;
+	background-color: transparent;
+}
+
+.swiper-box {
+  margin-top: 80rpx;
+  height: calc(100% - 80rpx);
+}
+.navbar {
+  height: 80rpx;
+  background: #fff;
+  position: fixed;
+	display: flex;
+  z-index: 7;
+  width: 100%;
+  box-shadow: 0 0 10rpx 0 rgba(153,153,153,0.1);
+	justify-content: center;
+  .nav-item {
+    display: inline-block;
+    font-size: 28rpx;
+    padding: 0 50rpx;
+    line-height: 80rpx;
+    color: $text-color-grey;
+    position: relative;
+    &.current {
+      color: $text-color-title;
+      &:after {
+        content: '';
+        position: absolute;
+        left: 50rpx;
+        bottom: 12rpx;
+        width: calc(100% - 100rpx);
+        height: 4rpx;
+        background: #1e384b;
+        border-radius: 2rpx;
+      }
+    }
+  }
+}
+
+.card-content{
+	width: calc(100% - 48rpx);
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-top: 24rpx;
+	background-color: $uni-bg-color;
+	border-radius: 8rpx;
+	box-sizing: border-box;
+}
+
+.left-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	background-color: #46c600;
+	border-top-left-radius: 8rpx;
+	border-bottom-left-radius: 8rpx;
+}
+
+.card-face-value {
+	font-size: 60rpx;
+	color: #FFFFFF;
+	margin-top: 60rpx;
+	margin-bottom: 60rpx;
+	margin-left: 32rpx;
+}
+
+.card-unit {
+	font-size: 32rpx;
+	color: #FFFFFF;
+	margin-right: 32rpx;
+	margin-top: 8rpx;
+}
+
+.right-content {
+	width: calc(100% - 248rpx);
+	overflow-y: visible;
+	display: flex;
+	flex-direction: column;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+}
+
+.item-card-id-code {
+	margin-top: 20rpx;
+}
+
+.sku-id-code{
+	color: #333333;
+	font-size: 28rpx;
+	text-overflow: ellipsis;
+}
+
+.sku-date {
+	color: #999999;
+	font-size: 24rpx;
+	padding-top: 24rpx;
+	padding-bottom: 24rpx;
+}
+
+.copy-img {
+	width: 28rpx;
+	height: 28rpx;
+	margin-left: 16rpx;
+}
+
+.load-more {
+	width: 100%;
+	text-align: center;
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+	font-size: 30rpx;
+}

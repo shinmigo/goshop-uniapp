@@ -1,0 +1,113 @@
+.sku-list {
+	width: 710rpx;
+	border-radius: 8rpx;
+	background-color: #FFFFFF;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	margin-top: 20rpx;
+	margin-bottom: 360rpx;
+	padding-top: 32rpx;
+	padding-bottom: 12rpx;
+	.sku-item {
+		margin-left: 24rpx;
+		margin-right: 24rpx;
+		margin-bottom: 20rpx;
+	}
+}
+
+.bottom-content {
+	position: fixed;
+	bottom: 0;
+	background-color: #FFFFFF;
+}
+
+.address {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	.addr-icon {
+		margin-left: 44rpx;
+		margin-right: 24rpx;
+	}
+	.arrow-icon {
+		margin-right: 44rpx;
+		margin-left: 24rpx;
+	}
+	.text-content {
+		margin-top: 32rpx;
+		margin-bottom: 32rpx;
+		flex-grow: 1;
+	}
+}
+
+.btn-commit {
+	width: 630rpx;
+	font-size: 32rpx;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 45px;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+	margin-left: 60rpx;
+	margin-right: 60rpx;
+	display: block;
+	background-image: linear-gradient(95deg, #7ce500 -8%, #59c407 47%, #46b20b 159%);
+}
+
+.dialog {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+}
+
+.bg-grey {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(51, 51, 51, 0.5);
+}
+
+.dialog-content {
+	width: 630rpx;
+	background-color: #FFFFFF;
+	border-radius: 12rpx;
+	z-index: 11;
+	display: flex;
+	flex-direction: column;
+}
+
+.confirm-commit {
+	color: #FFFFFF;
+	border-radius: 45px;
+	font-size: 32rpx;
+	background-image: linear-gradient(96deg, #7ce500 -8%, #59c407 47%, #46b20b 159%);
+	text-align: center;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+	margin-left: 40rpx;
+	margin-right: 40rpx;
+	margin-bottom: 40rpx;
+	margin-top: 32rpx;
+}
+
+.dialog-text-content {
+	margin-left: 100rpx;
+	margin-right: 120rpx;
+}
+
+.dialog-close {
+	width: 32rpx;
+	height: 32rpx;
+	align-self: flex-end;
+	margin-right: 30rpx;
+	margin-top: 30rpx;
+}

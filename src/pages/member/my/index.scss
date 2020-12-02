@@ -1,0 +1,201 @@
+%flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+%section {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+}
+.user-section{
+		height: 300rpx;
+		padding: 144rpx 40rpx 0;
+		position:relative;
+}
+	.bg{
+			position:absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 442rpx;
+		}
+.user-info-box{
+		height: 180rpx;
+		display:flex;
+		align-items:center;
+		position:relative;
+		z-index: 1;
+		.portrait{
+			width: 100rpx;
+			height: 100rpx;
+			border:5upx solid #FFFFFF;
+			border-radius: 50%;
+		}
+		.username{
+			margin-left: 24rpx;
+		}
+}
+.user-account-section {
+	// @extend %section;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	.user-account-item {
+		// @extend %flex-center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		color: $text-color;		
+	}
+	.user-account-num {
+		color: $text-color-title;
+	}
+}
+.cover-container{
+  border-radius: 4px;
+  box-shadow: 0 0 8px 0 rgba(153, 153, 153, 0.1), 0 0 8px 0 rgba(199, 211, 219, 0.25);
+  background-color: #ffffff;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.check-more-title {
+  	font-size: 24rpx;
+  	line-height: 2rpx;
+  	letter-spacing: normal;
+  	color: $text-color-grey;
+  	font-style: normal;
+  	font-stretch: normal;
+  	font-weight: normal;	
+  	text-align: right;
+	justify-content:space-between;
+	align-self:auto;
+	margin-right: 8rpx;
+  }
+
+.header{
+	  margin-bottom: 0rpx;
+	  width: 100%;
+	  height: 92rpx;
+}
+
+.order-section{
+		@extend %section;
+		margin-top: 20rpx;
+		margin-bottom: 40rpx;
+		.order-item{
+			@extend %flex-center;
+			width: 160rpx;
+			height: 160rpx;
+			border-radius: 8rpx;
+			font-size: 24rpx;
+			color: $text-color;
+			.order-bedge-top {
+				position: absolute;
+				z-index: 2;
+				top: -16rpx;
+				right: -16rpx;
+			}
+		}
+		.yticon{
+			width: 48rpx;
+			height: 48rpx;
+		}
+		.icon-shouhoutuikuan{
+			color: $text-color;
+			padding-top: 16rpx;
+		}
+}
+.my-order-title {
+	display: flex;
+	flex-direction: row;
+	margin-left: 24rpx;
+	margin-bottom: 0rpx;
+	text-align: left;
+	color: $text-color-title;
+	font-size: 28rpx;
+	font-weight: bold;
+	// border-style: ;
+	// f28 fb c_text_title ml24
+}
+/*我的订单与下面 的分割线*/
+.order-seperate-line {
+	margin-top: 0;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-bottom: 0;
+	height: 2rpx;
+	box-shadow: inset 0 -0.5px 0 0 $uni-bg-color;
+	background-color: rgb(238, 239, 241);
+}
+/*箭头*/
+.arrow-icon {
+	display: flex;
+	flex-direction: row-reverse;
+  width: 24px;
+  height: 24px;
+  margin-right: 24rpx;
+}
+.rectangle {
+	  margin-top: 30rpx;
+	  width: 1px;
+	  height: 16px;
+	  border-radius: 1px;
+	  background-color: #c5c5c5;
+}
+
+.founction-section {
+	margin-top: -20rpx;
+	.function-header {
+		width: 100%;
+		height: 108rpx;
+	}
+	.function-item-name {
+		font-size: 28rpx;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 2rpx;
+		letter-spacing: normal;
+		text-align: left;
+		color: $text-color-title;
+		margin-left: 24rpx;
+	}
+	.function-item-des {
+		  font-size: 24rpx;
+		  font-weight: normal;
+		  font-stretch: normal;
+		  font-style: normal;
+		  line-height: 2;
+		  letter-spacing: normal;
+		  color: $text-color-grey;
+		  margin-right: 8rpx;
+	}
+}
+
+.order-bedge-value {
+	display: flex;
+	align-items: center;
+	align-self: center;
+	justify-content:center;
+	font-size: 24rpx;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	color: #ffffff;
+	height: 32rpx;
+	background-color: #fb4e4e;
+	border-radius: 16rpx;
+}

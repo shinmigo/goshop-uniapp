@@ -1,0 +1,85 @@
+.top-cover-container {
+	margin-top: 20rpx;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	border-top-left-radius: 8rpx;
+	border-top-right-radius: 8rpx;
+	padding: 32rpx;
+	background-color: #f8fef0;
+	.logisticInfo {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		position: relative;
+		font-size: 28rpx;
+		font-weight: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #333333;
+		.logisticNumIcon {
+			width: 30rpx;
+			height: 30rpx;
+		}
+		.logisticNumMaxWidth {
+			max-width: 590rpx;
+		}
+	}
+}
+
+.bottom-cover-container {
+	margin-top: 0rpx;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-bottom: 20rpx;
+	padding: 32rpx;
+	border-bottom-left-radius: 8rpx;
+	border-bottom-right-radius: 8rpx;
+	background-color: #ffffff;
+	.logisticTitle {
+		font-size: 15px;
+		font-weight: 500;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #333333;
+	}
+	.logisticSubTitle {
+		font-size: 28rpx;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.43;
+		letter-spacing: normal;
+		color: #666666;
+		&-margintop {
+			margin-top: -8rpx;
+		}
+	}
+	.logisticTime {
+		font-size: 26rpx;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1;
+		letter-spacing: normal;
+		color: #999999;
+	}
+	.logisticMarkIcon {
+		width: 48rpx;
+		height: 48rpx;
+	}
+	.logisticNormal {
+		position: absolute;
+		width: 12rpx;
+		height: 12rpx;
+		background-color: #c3c3c3;
+		border-radius: 6rpx;
+	}
+	.logisticLeftLine {
+		width: 2rpx;
+		background-color: #e4e4e4;
+		border-radius: 2rpx;
+	}
+}

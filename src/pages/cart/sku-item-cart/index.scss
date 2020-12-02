@@ -1,0 +1,17 @@
+.cart-product-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-radius: 8rpx;
+	background-color: $uni-bg-color;
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+	padding-top: 24rpx;
+	padding-bottom: 24rpx;
+}
+
+.cart-product-check {
+	width: 36rpx;
+	height: 36rpx;
+	margin-right: 20rpx;
+}

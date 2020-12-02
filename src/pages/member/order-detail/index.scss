@@ -1,0 +1,116 @@
+.cover-container{
+  border-radius: 4px;
+  box-shadow: 0 0 8px 0 rgba(153, 153, 153, 0.1), 0 0 8px 0 rgba(199, 211, 219, 0.25);
+  background-color: #ffffff;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-top: 40rpx;
+  margin-bottom: 20rpx;
+}
+
+.funtion-header {
+	margin-top: -20rpx;
+}
+.function-orderNum-top {
+	margin-top: -20rpx;
+}
+.product {
+  .list{
+    width: calc(100% - 48rpx);
+    padding-top: 32rpx;
+    padding-left: 24rpx;
+    padding-right: 24rpx;
+    padding-bottom: 16rpx;
+  }
+	.order-money-title {
+		color: $text-color;
+		font-size: 28rpx;
+		font-weight: normal;
+		// flex-grow: 1;
+	}
+	.order-money-content {
+		color: $text-color-title;
+		font-size: 28rpx;
+		font-weight: medium;
+	}
+	.order-pay-money {
+		color: $price-color;
+		font-size: 32rpx;
+		font-weight: medium;
+	}
+ }
+ .order-detail-title {
+ 	color: $text-color-title;
+ 	font-weight: 500;
+ 	font-size: 28rpx;
+ 	font-stretch: normal;
+ 	font-style: normal;
+ 	line-height: 1;
+ 	letter-spacing: normal;
+ }
+ .order-detail-content {
+ 	color: $text-color;
+ 	font-size: 28rpx;
+ 	font-weight: normal;
+ 	font-stretch: normal;
+ 	font-style: normal;
+ 	line-height: 1;
+ 	letter-spacing: normal;
+ }
+ .order-detail-des {
+ 	color: $text-color-grey;
+ 	font-size: 24rpx;
+ 	font-weight: normal;
+ 	font-stretch: normal;
+ 	font-style: normal;
+ 	line-height: 1;
+ 	letter-spacing: normal;
+ }
+/*我的订单与下面 的分割线*/
+.order-seperate-line {
+	margin-top: 0;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-bottom: 0;
+	height: 2rpx;
+	box-shadow: inset 0 -0.5px 0 0 $uni-bg-color;
+	background-color: rgb(238, 239, 241);
+}
+
+.deliveryInfo{
+  width: 410rpx;
+}
+.orderDetailWidth {
+	  max-width: 520rpx;
+}
+
+.submitH{
+  width: 100%;
+  height: 124rpx;
+}
+.submit{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
+  height: 124rpx;
+  background: #FFFFFF;
+  box-shadow: inset 0 2rpx 0 0 #fafafa;
+  .btn{
+    width: 210rpx;
+    height: 80rpx;
+    border-radius: 40rpx;
+    line-height: 80rpx;
+    text-align: center;
+  background-image: linear-gradient(103deg, #7ce500 -6%, #59c407 46%, #46b20b 156%);
+  }
+  .connect-server-btn {
+    width: 210rpx;
+    height: 80rpx;
+    border-radius: 40rpx;
+    line-height: 80rpx;
+    text-align: center;
+    border: solid 0.5px #cccccc;
+  }
+}

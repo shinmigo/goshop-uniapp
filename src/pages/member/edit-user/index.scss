@@ -1,0 +1,119 @@
+.content {
+	width: 100%;
+	height: 100%;
+	background-color: #f7f7f7;
+}
+
+.personal-information-content{
+	background-color: #FFFFFF;
+	padding-right: 24rpx;
+	padding-left: 24rpx;
+}
+
+.title-content {
+	display: flex;
+	width: 100%;
+	padding-left: 32rpx;
+	padding-top: 32rpx;
+	padding-bottom: 32rpx;
+	padding-right: 32rpx;
+	background-color: #FFFFFF;
+	align-items: center;
+}
+
+.img-back {
+	width: 40rpx;
+	height: 40rpx;
+	
+}
+
+.title {
+	width: 100%;
+	font-size: 36rpx;
+	align-content: center;
+	text-align: center;
+	margin-right: 80rpx;
+}
+
+.user-img-content {
+	display: flex;
+	background-color: #FFFFFF;
+	margin-top: 20rpx;
+	border-bottom: 1px solid #f7f7f7;
+	align-items: center;
+}
+.img-title{
+	font-size: 30rpx;
+	color: #1e384b;
+}
+
+.user-img {
+	height: 100rpx;
+	width: 100rpx;
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+	margin-right: 30rpx;
+	border-radius: 50%;
+}
+
+.arrow-right{
+	height: 24rpx;
+	width: 24rpx;
+}
+
+.user-name-content{
+	display: flex;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #f7f7f7;
+	align-items: center;
+	flex-direction: row;
+}
+
+.text-stytle {
+	font-size: 30rpx;
+	color: #1e384b;
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+}
+.name-set {
+	font-size: 24rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	color: $text-color-grey;
+	margin-right: 28rpx;
+}
+
+.text-set-stytle {
+	font-size: 24rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	color: $text-color-title;
+	margin-right: 28rpx;
+}
+
+.birthday-set {
+	font-size: 24rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2;
+	letter-spacing: normal;
+	color: $text-color-title;
+	margin-right: 28rpx;
+}
+
+.sex-change {
+	width: 100%;
+	padding-top: 50rpx;
+	padding-bottom: 50rpx;
+	font-size: 40rpx;
+	color: $text-color-title;
+	text-align: center;
+	border-bottom: 1px solid #f7f7f7;
+}

@@ -1,0 +1,38 @@
+.cart-wrapper {
+	width: 100%;
+}
+
+.cart-content {
+	width: 100%;
+	/* min-height: 100%; */
+	padding-bottom: 136rpx;
+}
+
+.cart-bottom-bar {
+	width: 100%;
+	height: 136rpx;
+	background-color: $uni-bg-color;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: fixed;
+	/* #ifndef MP-WEIXIN */
+	bottom: 100rpx;
+	/* #endif */
+	/* #ifdef MP-WEIXIN */
+	bottom: 0;
+	/* #endif */
+}
+
+.btn-commit {
+	font-size: 28rpx;
+	text-align: center;
+	color: $uni-text-color-inverse;
+	padding-top: 26rpx;
+	padding-bottom: 26rpx;
+	padding-left: 40rpx;
+	padding-right: 40rpx;
+	border-radius: 40rpx;
+	// background-image: linear-gradient(103deg, #7ce500 -21%, #59c407 54%, #46b20b 156%);
+	margin-right: 32rpx;
+}

@@ -1,0 +1,41 @@
+.content {
+	width: 100%;
+	margin-bottom: 32rpx;
+}
+
+.banner-img {
+	width: calc(100% - 40rpx);
+	margin-top: 32rpx;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	background-color: #FFFFFF;
+}
+
+.banner-text {
+	width: calc(100% - 64rpx);
+	background-color: #FFFFFF;
+	padding: 32rpx;
+	margin-top: 32rpx;
+}
+
+.banner-text text {
+	width: calc(100% - 40rpx);
+	font-size: 28rpx;
+	word-break: break-all;
+	color: $text-color;
+}
+
+.sku-list {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 24rpx;
+	padding-right: 24rpx;
+	margin-top: 32rpx;
+}
+
+.sku-item {
+	width: 340rpx;
+}

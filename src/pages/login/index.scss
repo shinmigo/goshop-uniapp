@@ -1,0 +1,93 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+  overflow: hidden;
+
+  .back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 32rpx;
+  }
+
+  .logo {
+    display: block;
+    width: 304rpx;
+    height: 102rpx;
+    margin: 70rpx auto 96rpx;
+  }
+
+  .inputBox {
+    width: 654rpx;
+    height: 100rpx;
+    border-radius: 50rpx;
+    background-color: #f5f5f5;
+    margin: 0 auto 32rpx;
+
+    input {
+      height: 100rpx;
+      padding: 0rpx 36rpx;
+      line-height: 100rpx;
+    }
+
+    .yzm {
+      width: 160rpx;
+      min-width: 160rpx;
+      height: 32rpx;
+      line-height: 32rpx;
+      border-left: 1px solid #c5c5c5;
+      padding-left: 20rpx;
+    }
+
+    .close {
+      padding: 36rpx 20rpx;
+    }
+  }
+
+  .btn {
+    width: 630rpx;
+    height: 100rpx;
+    border-radius: 50rpx;
+    line-height: 100rpx;
+    margin: 80rpx auto 0;
+  }
+
+  .lineBox {
+    width: 630rpx;
+    height: 48rpx;
+    margin: 190rpx auto 40rpx;
+
+    .line {
+      height: 1px;
+      /* box-shadow: inset 0 0rpx 0 0 #ffffff; */
+      background-color: #e3e5e8;
+      opacity: 0.5;
+    }
+  }
+  .otherLogin {
+    .loginItem {
+      width: 100rpx;
+      padding: 0 52rpx;
+      position: relative;
+      .loginTypeIcon {
+        width: 96rpx;
+        height: 96rpx;
+        border: solid 1px #ececec;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .wxButton{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        opacity: 0;
+        padding: 0;
+      }
+    }
+  }
+}
