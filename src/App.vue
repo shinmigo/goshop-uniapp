@@ -110,12 +110,13 @@
               }
             }).then(data => {
               let resData = data.data;
-              if (resData.code == 200) {
+              if (resData.code == 1) {
                 let {
                   openid,
                   token
-                } = resData.data;
+                } = resData.data[0];
                 // this.globalData.userInfo = resData.data;
+                this.globalData.openid = openid;
                 // wx.setStorageSync('access_token', token);
                 wx.setStorageSync('openid', openid);
               } else {
