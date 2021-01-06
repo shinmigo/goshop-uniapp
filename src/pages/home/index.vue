@@ -115,8 +115,13 @@
               banner,
               ad
             } = data[0];
+            
+            var adData = ad[0].ele_info || [];
+            if(ad[1]){
+              adData.push(ad[1].ele_info[0])
+            }
             this.banner = banner[0].ele_info || [];
-            this.adBannerSpan = ad[0].ele_info || [];
+            this.adBannerSpan = adData;
           }
         }).catch(res => {
           uni.stopPullDownRefresh();

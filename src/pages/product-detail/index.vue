@@ -23,7 +23,7 @@
 				<view v-for="(content,indexOuter) in productIntros" :key="indexOuter">
 					<view class="product-intro-text" v-if="content.type=='1'">{{content.text}}</view>
 					<!-- <block v-else-if="content.type=='2'" v-for="(url,index) in content.text" :key="index"> -->
-					<BannerImg v-else-if="content.type=='2'" :bannerUrl="content.text" width="750"></BannerImg>
+					<BannerImg v-else-if="content.type=='2'" :imgId="content.text" width="750" mode="widthFix"></BannerImg>
 					<!-- </block> -->
 				</view>
 			</view>
